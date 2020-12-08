@@ -31,20 +31,25 @@ int main ()
     int pennies;
     cin >> pennies;
     cout << "How many weeks have you been saving for?\n";
-    int weeks;
+    double weeks;
     cin >> weeks;
 
 
     // Variables to return from methods
-    double grand_total_cost;
-
+    
+    double total_money;
+    double savings_in_a_week;
+    
     // Strings that introduce the names of the function
     string method1 = "Chart to display inputs";
     string method2 = "Grand Total";
     string method3 = "Savings Per Week";
+    string method4 = "Savings in a Year";
     // Running the methods
     chart(method1,pennies,nickels,dimes,quarters);
-    grand_total(method1,pennies,nickels,dimes,quarters,grand_total_cost);
-    savings_per_week(method3, name,grand_total_cost);
+    total_money = grand_total(method1,pennies,nickels,dimes,quarters);
+    savings_in_a_week = (method3,name,weeks, total_money);
+    savings_in_year(method4,name,savings_in_a_week);
+    
     
 }

@@ -8,6 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb4158cf-261f-4ae4-a986-d1bd0f6ed225" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Procedural Piggy Bank Program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Procedural Piggy Bank Program/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/Functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/Functions.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/Main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/functions.h" afterDir="false" />
@@ -68,7 +70,7 @@
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="C++ Project.Procedural Piggy Bank Program">
     <configuration name="Procedural Piggy Bank Program" type="CppProject" factoryName="C++ Project">
       <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
@@ -129,7 +131,7 @@
       <updated>1606869022627</updated>
       <workItem from="1606869044696" duration="1409000" />
       <workItem from="1607090849119" duration="4426000" />
-      <workItem from="1607433651665" duration="4194000" />
+      <workItem from="1607433651665" duration="7304000" />
     </task>
     <task id="LOCAL-00001" summary="Wrote chart method">
       <created>1607435236281</created>

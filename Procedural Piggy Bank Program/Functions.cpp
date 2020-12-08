@@ -12,11 +12,12 @@ void chart(string method1,int pennies, int nickels, int dimes, int quarters)
  cout << setw(20) << "Quarters" << setw(20) << "Dimes" << setw(20) << "Nickels" << setw(20) << "Pennies" << endl;
 // Cout statement that prints values of coins
  cout << setw(20) << quarters << setw(20) << dimes << setw(20) << nickels << setw(20) << pennies << endl;
- cout << endl << endl;
+ cout << endl;
 }
 
-double grand_total(string method2, int pennies, int nickels, int dimes, int quarters,double grand_total_cost)
+double grand_total(string method2, int pennies, int nickels, int dimes, int quarters)
 {
+ double grand_total_cost = 0;
  cout << "Function: " << method2 << endl << endl;
   grand_total_cost = (pennies * .01);
   grand_total_cost = (nickels * .05) + grand_total_cost;
@@ -24,13 +25,25 @@ double grand_total(string method2, int pennies, int nickels, int dimes, int quar
   grand_total_cost = (quarters * .25) + grand_total_cost;
  setprecision(2);
  cout << "Your grand total is $" << grand_total_cost << endl;
- cout << endl << endl;
+ cout << endl;
  return grand_total_cost;
 }
 
-void savings_per_week(string method3, string name, double grand_total_cost)
+double savings_per_week(string method3, string name, double total_money, double weeks)
 {
  cout << "Function: " << method3 << endl << endl;
- double savings
+double savings_per_week_double = total_money/weeks;
+cout << name << ", you have saved $" << setprecision(2) << fixed <<  savings_per_week_double << " per week\n";
+ cout << endl;
+ return savings_per_week_double;
 }
+
+void savings_in_a_year(string method4, string name, double savings_in_a_week)
+{
+ cout << "Function: " << method4 << endl << endl;
+ double savings_year = savings_in_a_week * 52;
+ cout << name << ", in a year, you could save up to " << setprecision(2) << fixed << savings_year << endl << "if you keep up the same rate\n";
+}
+
+
 
