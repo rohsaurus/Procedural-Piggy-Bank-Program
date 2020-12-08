@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\mpari\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mpari\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Procedural Piggy Bank Program.48941762.00" t="ExcludeRecursive" />
+    <e p="C:\Users\mpari\Documents\coding projects\C++\Procedural Piggy Bank Program\Procedural Piggy Bank Program" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Procedural Piggy Bank Program" t="IncludeRecursive">
+        <e p="Functions.cpp" t="Include" />
+        <e p="Main.cpp" t="Include" />
+        <e p="Procedural Piggy Bank Program.vcxproj" t="IncludeRecursive" />
+        <e p="worksheets.h" t="Include" />
+        <e p="x64\Debug" t="ExcludeRecursive" />
+      </e>
+      <e p="Procedural Piggy Bank Program.sln" t="IncludeFlat" />
+      <e p="x64\Debug" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
