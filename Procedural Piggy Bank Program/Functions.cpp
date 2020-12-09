@@ -25,10 +25,7 @@ double grand_total(string method2, int pennies, int nickels, int dimes, int quar
   grand_total_cost = (nickels * .05) + grand_total_cost;
   grand_total_cost = (dimes * .1) + grand_total_cost;
   grand_total_cost = (quarters * .25) + grand_total_cost;
- // Prints the grand total before returning it
- setprecision(2);
- cout << "Your grand total is $" << grand_total_cost << endl;
- cout << endl;
+ // returns grand total
  return grand_total_cost;
 }
 
@@ -36,25 +33,34 @@ double savings_per_week(string method3, string name, double total_money, double 
 {
  cout << "Function: " << method3 << endl << endl;
 double savings_per_week_double = total_money/weeks;
-cout << name << ", you have saved $" << setprecision(2) << fixed <<  savings_per_week_double << " per week\n";
- cout << endl;
- return savings_per_week_double;
+ // returns savings per week
+return savings_per_week_double;
 }
 
-void savings_in_a_year(string method4, string name, double savings_in_a_week)
+double savings_in_year(string method4, string name, double savings_in_a_week)
 {
  cout << "Function: " << method4 << endl << endl;
  double savings_year = savings_in_a_week * 52;
- cout << name << ", in a year, you could save up to " << setprecision(2) << fixed << savings_year << endl << "if you keep up the same rate\n";
- cout << endl;
+ // returns savings in a year
+return savings_year;
 }
 
 // Extra thing method
-void savings_in_five_years(string method5, string name, double savings_in_a_week)
+double savings_in_five_years(string method5, string name, double savings_in_a_week)
 {
  cout << "Function: " << method5 << endl << endl;
  double savings_5_years = (savings_in_a_week * 52) * 5;
- cout << name << ", in five years, you could save up to " << setprecision(2) << fixed << savings_5_years << endl << "if you kept up the same rate of saving\n";
+ // returns savings in five years
+return savings_5_years; 
 }
 
+// Savings statement method
+ void savings_statement(string method6, string name, double savings_in_a_week,double total_money,double savings_in_one_year,double savings_in_five_years)
+{
+ cout << "Function: " << method6 << endl << endl;
+ cout << name << ", you have an average savings rate of $" << setprecision(2) << fixed << savings_in_a_week << " per week!\n That's amazing!\n";
+ cout << name << ", you currently have $" << setprecision(2) << fixed << total_money <<"! Great job!\n";
+ cout << "Great job " << name << ". You can earn $" << setprecision(2) << fixed << savings_in_one_year << " if you keep this\n rate up!\n";
+ cout << "If you keep this up, you will save $" << setprecision(2) << fixed << savings_in_five_years << " in five years! Great\n job " << name << endl;
+}
 
