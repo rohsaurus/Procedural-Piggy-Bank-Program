@@ -9,4 +9,4 @@ double savings_in_year(std::string method4, std::string name, double savings_in_
 // Extra thing method
 double savings_in_five_years(std::string method5, std::string name, double savings_in_year);
 // Saving statement
-void savings_statement(std::string method6, std::string name, double savings_in_a_week,double total_money,double savings_in_one_year,double savings_in_five_years)
+void savings_statement(std::string method6, std::string name, double savings_in_a_week,double total_money,double savings_in_one_year,double savings_in_five_years);

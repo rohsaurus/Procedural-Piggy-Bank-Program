@@ -6,9 +6,7 @@
  */
 
 #include <iostream>
-
 #include "Functions.h"
-//namespaces can sometimes cause problems make sure you are able to use it
 using namespace std;
 
 int main ()
@@ -50,6 +48,7 @@ int main ()
             else
             {
                 cout << "Ok, you will get a chance to fix your inputs\n";
+                continue;
             }
         }
         if (weeks >= 0)

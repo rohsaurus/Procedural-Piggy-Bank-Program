@@ -1,7 +1,6 @@
 ﻿ #include <iomanip>
  #include <iostream>
  #include <string>
- #include <cstdio>
 //namespaces can sometimes cause problems make sure you are able to use it
 using namespace std;
 
