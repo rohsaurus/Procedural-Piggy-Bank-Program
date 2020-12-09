@@ -5,6 +5,7 @@
 //namespaces can sometimes cause problems make sure you are able to use it
 using namespace std;
 
+// Function that outputs the values of the coins in a chart format
 void chart(string method1,int pennies, int nickels, int dimes, int quarters)
 {
  cout << "Function: " << method1 << endl << endl;
@@ -15,6 +16,7 @@ void chart(string method1,int pennies, int nickels, int dimes, int quarters)
  cout << endl;
 }
 
+// Calculates the grand total and returns to a variable in main
 double grand_total(string method2, int pennies, int nickels, int dimes, int quarters)
 {
  double grand_total_cost = 0;
@@ -23,6 +25,7 @@ double grand_total(string method2, int pennies, int nickels, int dimes, int quar
   grand_total_cost = (nickels * .05) + grand_total_cost;
   grand_total_cost = (dimes * .1) + grand_total_cost;
   grand_total_cost = (quarters * .25) + grand_total_cost;
+ // Prints the grand total before returning it
  setprecision(2);
  cout << "Your grand total is $" << grand_total_cost << endl;
  cout << endl;
@@ -43,7 +46,15 @@ void savings_in_a_year(string method4, string name, double savings_in_a_week)
  cout << "Function: " << method4 << endl << endl;
  double savings_year = savings_in_a_week * 52;
  cout << name << ", in a year, you could save up to " << setprecision(2) << fixed << savings_year << endl << "if you keep up the same rate\n";
+ cout << endl;
 }
 
+// Extra thing method
+void savings_in_five_years(string method5, string name, double savings_in_a_week)
+{
+ cout << "Function: " << method5 << endl << endl;
+ double savings_5_years = (savings_in_a_week * 52) * 5;
+ cout << name << ", in five years, you could save up to " << setprecision(2) << fixed << savings_5_years << endl << "if you kept up the same rate of saving\n";
+}
 
 

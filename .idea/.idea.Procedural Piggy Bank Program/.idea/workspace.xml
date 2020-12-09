@@ -9,17 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eb4158cf-261f-4ae4-a986-d1bd0f6ed225" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Procedural Piggy Bank Program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Procedural Piggy Bank Program/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/Functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/Functions.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/Main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/functions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/Functions.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/Functions.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/Main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/Main.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/vc142.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/vc142.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Procedural Piggy Bank Program.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Procedural Piggy Bank Program.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Procedural Piggy Bank Program.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Procedural Piggy Bank Program.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Procedural Piggy Bank Program.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Procedural Piggy Bank Program.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +29,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Procedural Piggy Bank Program/functions.h" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Procedural Piggy Bank Program/worksheets.h" />
+      <option value="$PROJECT_DIR$/Procedural Piggy Bank Program/functions.h" />
       <option value="$PROJECT_DIR$/Procedural Piggy Bank Program/Main.cpp" />
       <option value="$PROJECT_DIR$/Procedural Piggy Bank Program/Functions.cpp" />
     </changedPaths>
@@ -70,7 +66,7 @@
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="C++ Project.Procedural Piggy Bank Program">
+  <component name="RunManager">
     <configuration name="Procedural Piggy Bank Program" type="CppProject" factoryName="C++ Project">
       <configuration_1>
         <option name="CONFIGURATION" value="Debug" />
@@ -131,7 +127,8 @@
       <updated>1606869022627</updated>
       <workItem from="1606869044696" duration="1409000" />
       <workItem from="1607090849119" duration="4426000" />
-      <workItem from="1607433651665" duration="7304000" />
+      <workItem from="1607433651665" duration="7589000" />
+      <workItem from="1607522112396" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="Wrote chart method">
       <created>1607435236281</created>
@@ -140,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607435236281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished, just got to add error checking, commenting, and extra thing">
+      <created>1607442244500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607442244500</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +180,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Wrote chart method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote chart method" />
+    <MESSAGE value="Finished, just got to add error checking, commenting, and extra thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished, just got to add error checking, commenting, and extra thing" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
