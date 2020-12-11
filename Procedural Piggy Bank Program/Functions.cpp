@@ -64,7 +64,7 @@ return savings_5_years;
  cout << "Function: " << method6 << endl << endl;
  cout << name << ", you have an average savings rate of $" << setprecision(2) << fixed << savings_in_a_week << " per week!\n That's amazing!\n";
  cout << name << ", you currently have $" << setprecision(2) << fixed << total_money <<"! Great job!\n";
- cout << "Great job " << name << ". You can earn $" << setprecision(2) << fixed << savings_in_one_year << " if you keep this\n rate up!\n";
+ cout << "Great job " << name << ". You can earn $" << setprecision(2) << fixed << savings_in_one_year << " in a year if you keep this\n rate up!\n";
  cout << "If you keep this up, you will save $" << setprecision(2) << fixed << savings_in_five_years << " in five years! Great\n job " << name << endl;
 }
 
