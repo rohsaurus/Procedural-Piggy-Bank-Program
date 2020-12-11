@@ -9,11 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb4158cf-261f-4ae4-a986-d1bd0f6ed225" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Procedural Piggy Bank Program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Procedural Piggy Bank Program/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/Functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/Functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/functions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/vc142.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Procedural Piggy Bank Program/x64/Debug/vc142.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +32,9 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Procedural Piggy Bank Program/worksheets.h" />
-      <option value="$PROJECT_DIR$/Procedural Piggy Bank Program/Main.cpp" />
       <option value="$PROJECT_DIR$/Procedural Piggy Bank Program/Functions.cpp" />
       <option value="$PROJECT_DIR$/Procedural Piggy Bank Program/functions.h" />
+      <option value="$PROJECT_DIR$/Procedural Piggy Bank Program/Main.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1l4v84PD2TJX6vlTflxnN0omNzD" />
@@ -64,7 +59,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -131,7 +126,8 @@
       <workItem from="1607090849119" duration="4426000" />
       <workItem from="1607433651665" duration="7589000" />
       <workItem from="1607522112396" duration="5328000" />
-      <workItem from="1607527558013" duration="360000" />
+      <workItem from="1607527558013" duration="937000" />
+      <workItem from="1607693042912" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="Wrote chart method">
       <created>1607435236281</created>
@@ -161,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607527425350</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Program is comeplete and works!">
+      <created>1607528179152</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607528179152</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Small update to comments">
+      <created>1607528294347</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607528294347</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +210,9 @@
     <MESSAGE value="Finished, just got to add error checking, commenting, and extra thing" />
     <MESSAGE value="Finished error checking, added comments, and extra thing. Just got to add possiability for user inputting 53 weeks" />
     <MESSAGE value="Finished everything just got to make sure program works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished everything just got to make sure program works" />
+    <MESSAGE value="Program is comeplete and works!" />
+    <MESSAGE value="Small update to comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small update to comments" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

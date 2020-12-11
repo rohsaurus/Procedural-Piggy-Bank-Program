@@ -80,13 +80,16 @@ int main ()
     string method4 = "Savings in a Year";
     string method5 = "Savings in five years";
     string method6 = "Savings Statement";
+    
     // Running the methods
     chart(method1,pennies,nickels,dimes,quarters);
     total_money = grand_total(method2,pennies,nickels,dimes,quarters);
     savings_in_a_week = savings_per_week(method3,name,total_money,weeks);
     savings_in_one_year = savings_in_year(method4,name,savings_in_a_week);
+    
     // Running extra thing method
     savings_in_five_years = ::savings_in_five_years(method5,name,savings_in_a_week);
+    
     // Savings Statement Method
     savings_statement(method6, name, savings_in_a_week,total_money,savings_in_one_year,savings_in_five_years);
     
